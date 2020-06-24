@@ -1,30 +1,33 @@
+
 <!DOCTYPE HTML>
 <html><head lang="en"><meta charset="utf-8" http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
-<base target="_self" href="https://rvklein.me/" />
+	<base target="_self" href="https://rvklein.me/" />
 
 	<meta http-equiv="Onion-Location" content="http://3vtnnjpstx2i6hpnwwqp4rwiyfdac2nrfq4nevp72rkj4t5f7kzqyoqd.onion/" />
 	
+	<meta name="robots" content="all" />
 	<meta name="author" content="rvklein.me" />
-	<meta name="theme-color" content="#000000" />
 	<meta name="generator" content="handmade/0.0" />
+	<meta name="theme-color" content="#000000" />
 	
 	<link rel="shortcut icon" href="/proj/website-base/favicon/favicon.ico" />
 	<link rel="icon" type="image/png" sizes="16x16" href="/proj/website-base/favicon/favicon.png" />
 	<link rel="icon" type="image/svg+xml" sizes="any" href="/proj/website-base/favicon/favicon.svg" />
 	
 	<link rel="stylesheet" type="text/css" href="/proj/binchotan/fontface._binchotan_sharp_.css" />
+
+	<title> R.V.Klein &#x1F407; HOME </title>
+	<meta name="description" content="The works of R. V. Klein, digital artist and designer." />
 	
 	<!-- <meta name="google-site-verification" content="Oev5E34m9QcRdE58c6DYNPBeQ0qfzBQDdWfWWvc3rXg" /> -->
 	<meta name="flattr:id" content="rowd1y" />
-
-	<title> R.V.Klein &#x1F407; HOME </title>
 
 <style>
 @charset "utf-8";
 
 * {margin:0;padding:0;border-width:0;border-style:none;font:inherit;line-height:inherit;}
-a:link,a:visited {color:inherit;text-decoration-color:grey;}
-html {background-color:black;color:white;}
+a:link,a:visited {color:inherit;}
+
 
 
 html,body {
@@ -84,8 +87,6 @@ p {line-height:1em;}
 	margin-bottom:0.5em;
 	border-style:solid;
 	border-radius:1.5em;
-	border-color:#404040;
-	background-color:black;
 }
 
 #zomglinkzplox section>em
@@ -100,9 +101,6 @@ p {line-height:1em;}
 	line-height:inherit;
 	vertical-align:top;
 	height:1em;
-	text-shadow:0 0.0625em 0 black,0 -0.0625em 0 grey;
-	background-color:black;
-	box-shadow:0 0 0.5em black;
 }
 
 #zomglinkzplox>header
@@ -118,7 +116,6 @@ p {line-height:1em;}
 {
 	font-size:4em;
 	line-height:1.5em;
-	text-shadow:0 0.015625em 0 black,0 0.03125em 0 grey;
 	display:inline-block;
 	vertical-align:bottom;
 }
@@ -172,7 +169,7 @@ h3
 #odfp>section>a
 {
 	display:inline-block;
-	width:18em;
+	width:17em;
 	padding:0.875em;
 	padding-top:0.375em;
 	border-width:0.125em;
@@ -180,8 +177,6 @@ h3
 	text-align:start;
 	border-radius:1.5em;
 	margin:0.5em 0.25em;
-	border-color:#404040;
-	background-color:black;
 }
 
 #odfp>section>a>picture
@@ -205,7 +200,7 @@ h3
 {
 	width:10em;
 	float:right;
-	padding-right:1em;
+	padding-right:0;
 	padding-left:1em;
 	text-decoration:inherit;
 }
@@ -228,8 +223,6 @@ h3
 	border-width:0.125em;
 	border-style:solid;
 	border-radius:1.5em;
-	border-color:#404040;
-	background-color:black;
 	margin-left:1em;
 	margin-right:1em;
 }
@@ -240,10 +233,8 @@ h3
 	padding-top:0.25em;
 }
 
-#zomglinkzplox a#site-mainnav-home {border-color:black;}
+#more-site-mirrors {width:40em;text-align:end;}
 
-#more-site-mirrors {width:40em;text-align:center;}
-#more-site-mirrors:not(:target) {display:none;visibility:hidden;}
 
 body
 {
@@ -265,12 +256,31 @@ body
 	justify-content:center;
 }
 
-
-body {background-image:linear-gradient(180deg,black,black 35%,transparent);}
-
 main {backdrop-filter:blur(8px);border-radius:2em;}
 
-#odfp>section>a,#zomglinkzplox>nav>section>a,#aboutself>a {box-shadow:0 0 0.5em black,inset 0 0 0.375em #404040;}
+#site-mainnav-home,#site-mainnav-more
+{
+  width:1em;
+}
+
+
+#zomglinkzplox details summary::-webkit-details-marker {display:none;}
+#zomglinkzplox details {display:contents;text-align:end;}
+#zomglinkzplox details summary {display:inline-block;float:right;}
+
+
+#luckynumber-container
+{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  z-index:-1;
+  text-align:center;
+  filter:blur(0.125em);
+  color:grey;
+  color:rgba(128,128,128,0.5);
+}
+
 
 html
 {
@@ -279,13 +289,74 @@ html
 	background-size:cover;
 }
 
-#site-mainnav-home,#site-mainnav-more
+</style>
+<style>
+
+html
 {
-  width:1em;
+	background-color:black;
+	color:white;
+}
+
+
+ a:link
+,a:visited
+{
+	text-decoration-color:grey;
+}
+
+
+ #zomglinkzplox a
+,#odfp>section>a
+,#aboutself>a
+,#zomglinkzplox section>em
+{
+	background-color:black;
+}
+
+
+ #zomglinkzplox a
+,#odfp>section>a
+,#aboutself>a
+{
+	border-color:#404040;
+}
+
+
+#zomglinkzplox a#site-mainnav-home
+{
+	border-color:black;
+}
+
+
+#zomglinkzplox section>em
+{
+	text-shadow:0 0.0625em 0 black,0 -0.0625em 0 grey;
+	box-shadow:0 0 0.5em black;
+}
+
+
+ #odfp>section>a
+,#zomglinkzplox>nav>section a
+,#aboutself>a
+{
+	box-shadow:0 0 0.5em black,inset 0 0 0.375em #404040;
+}
+
+
+body
+{
+	background-image:linear-gradient(180deg,black,black 35%,transparent);
+}
+
+
+#zomglinkzplox>header>h1
+{
+	text-shadow:0 0.015625em 0 black,0 0.03125em 0 grey;
 }
 
 </style>
-
+<!--(~)-->
 </head><body dir="ltr" lang="en">
 
 <main id="main">
@@ -300,12 +371,17 @@ html
 				<a id="site-mainnav-home">🏠</a>
 				<a href="https://3vtnnjpstx2i6hpnwwqp4rwiyfdac2nrfq4nevp72rkj4t5f7kzqyoqd.onion/">Tor Mirror</a>
 				<a href="http://rvklein.i2p/?i2paddresshelper=3UuEUZRPrk9s5AHsfIrWn69yHTwrPxHqiUMvcSn9Wo4u1abSM0kZj0Bt23ruuXKNvJ6KAAO-irZrkV4Kev7bv3SZbwmcSyMRuxgPxKSqqIVSVcTT4Lu9ZyTRcfjXH9pKuCGxSNxuquTobLEx1-aLWIiPT~ViIx3~Zk~rIbHPEESVr6ggn~e-T~UW~dOe98OhpPasHkk2~JdD6xUXDHs4peXgxekpEhNo66~8pj5ZwP3PZ-lXK4MrwTSamW9nneU1WZMsprhy6BJw4BWmYbmeX7TV1vxg4HNLZ2tTDteyemHGybuIi~ls6c11Kj3gwMO1j3EgPDceJnYV6yswglc88483QX7LWwEPMwIbYp6T535aPXOpqizZe6uY644696KhvjkvVb8ACCkvghFrldb8YbkyNcNSePuq6UzgCRjsMcA2dBw1nESIiZb6VAQlQDzmTxM1aNrCM0YhQtRqo6wiKf7f6QJIUgJ27jxUO-P5HpbIJEKhrJtoYF~3iknsmvdBBQAEAAcAAA==">I2P Mirror</a>
-				<a id="site-mainnav-more" href="#more-site-mirrors">⋮</a>
-				<div id="more-site-mirrors">
-				  <a rel="external" href="https://web.archive.org/web/https://rvklein.me/">Via archive.org</a>
-				  <a rel="external" href="https://archive.is/https://rvklein.me/">Via archive.is</a>
-				  <a rel="external" href="https://rvklein.github.io/">On github.io</a>
-				</div>
+        <a rel="external noopener" href="https://rvk.hashbase.io/">rvk.hashbase.io</a>
+				<details>
+				  <summary><a id="site-mainnav-more">⋮</a></summary>
+  				<div id="more-site-mirrors">
+  				  <a rel="external noopener" href="https://rvklein.github.io/">github.io</a>
+  				  <a rel="external noopener" href="http://rvk.sdf.org/">sdf.org</a>
+  				  <a rel="external noopener" href="https://web.archive.org/web/https://rvklein.me/">archive.org</a>
+  				  <a rel="external noopener" href="https://archive.is/https://rvklein.me/">archive.is</a>
+  				  <a rel="external noopener" target="_blank" href="https://linktr.ee/rvk/">linktr.ee</a>
+  				</div>
+  			</details>
 			</section>
 			<section>
 				<em>Contact</em>
@@ -322,13 +398,13 @@ html
 			<section>
 				<em>MicroBlogs</em>
 				<a rel="external noopener" target="_blank" href="https://mastodon.technology/@rvk/">mastodon:@rvk@mastodon.technology</a>
-				<a rel="external" target="_blank" href="https://twitter.com/rabbitvk/">Twitter User @rabbitvk</a>
+				<a rel="external noopener" target="_blank" href="https://twitter.com/rabbitvk/">Twitter User @rabbitvk</a>
 			</section>
 			<section>
 				<em>More</em>
-				<a rel="external" href="https://rvk.artstation.com/">ArtStation Portfolio</a>
-				<a rel="external" href="https://neocities.org/site/rvklein/">Neocities Profile</a>
-				<a rel="external" href="https://dribbble.com/rvklein/">Dribble Shots</a>
+				<a rel="external noopener" href="https://rvk.artstation.com/">ArtStation Portfolio</a>
+				<a rel="external noopener" href="https://neocities.org/site/rvklein/">Neocities Profile</a>
+				<a rel="external noopener" href="https://dribbble.com/rvklein/">Dribble Shots</a>
 			</section>
 		</nav>
 	</article>
@@ -344,5 +420,8 @@ html
 	</article>
 </main>
 
+<footer id="luckynumber-container">
+  <p><span id="luckynumber-span">( <small>0x5A827999F === 24296003999</small> )</span></p>
+</footer>
 
 </body></html>
